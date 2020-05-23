@@ -56,6 +56,18 @@ body {
     color: black !important;
 }
 
+#diploma-2 {
+    width: 75px;
+}
+
+#sql {
+    width: 75px;
+}
+
+#training2 {
+    width: 75px;
+}
+
 /* Profolio Styles */
 
 .portfolio-items-wrapper {
