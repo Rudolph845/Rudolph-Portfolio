@@ -56,35 +56,26 @@ body {
     color: black !important;
 }
 
-#diploma-2 {
-    width: 75px;
-}
-
-#sql {
-    width: 75px;
-}
-
-#training2 {
-    width: 75px;
-}
-
-/* Profolio Styles */
+/* Portfolio Styles */
 
 .portfolio-items-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .portfolio-item-wrapper {
     position: relative;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .portfolio-img-background {
     height: 350px;
-    width: 100%;
+    width: auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 30px;
 }
 .img-text-wrapper {
     position: absolute;
@@ -133,9 +124,56 @@ body {
 }
 
 .profile-content-wrapper {
-    padding: 30px;
+    padding: 20px;
+    margin-right: 50px;
 }
 
 .profile-content-wrapper h1 {
     color: lightseagreen;
+}
+
+
+/* Home Styles */
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bio {
+    font-size: 2rem;
+    margin: 3rem;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    border: 10px;
+    border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1;
+    border-style: solid;
+}
+
+.nice-image {
+    height: 500px;
+    background-image: url("images/books.jpg");
+    margin: 3rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-section {
+    margin: 3rem;
+}
+
+h3 {
+    margin:0px;
+    padding:5px;
+    color: darkgreen;
+    font-weight: 700;
+}
+
+p {
+    margin:0px;
+    padding:5px;
+    font-weight: normal;
 }
