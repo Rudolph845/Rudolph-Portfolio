@@ -14,6 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 38px ;
+    flex-wrap: wrap;
     background:
         linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
 }
@@ -47,6 +48,7 @@ a.email {
     border-radius: 15px;
     margin-top: -7px;
     box-shadow: 0 8px 10px 0;
+    margin-right: 5px;
     }
 
 a.email:hover {
